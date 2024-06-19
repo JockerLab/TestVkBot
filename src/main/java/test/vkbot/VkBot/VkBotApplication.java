@@ -1,13 +1,13 @@
-package test.vkbot.TestVkBot;
+package test.vkbot.VkBot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestVkBotApplication {
+public class VkBotApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestVkBotApplication.class, args);
+		SpringApplication.run(VkBotApplication.class, args);
 	}
 
 }

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>test.vkbot</groupId>
-	<artifactId>TestVkBot</artifactId>
+	<artifactId>VkBot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TestVkBot</name>
+	<name>VkBot</name>
 	<description>Test task VK Bot</description>
 	<url/>
 	<licenses>
@@ -33,6 +33,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 
 		<dependency>
